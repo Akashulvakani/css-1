@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <legend style="color: fuchsia;">COLORS-VEGETABLES</legend>
+    <h1 style="color: black;background-color: aqua;font-style: italic width: 100px;;">VEGETABLE-COLORS</h1>
+    <style>
+        .tomato{
+            color:white;
+            background-color: blue;
+            height: 150px;
+            width: 150px;
+            font-size: larger;
+            font-style: italic;
+        }
+       .potato{
+        color: aliceblue;
+        background-color: blue;
+        height: 150px;
+        width: 150px;
+        font-style: oblique;
+        font-size: larger;
+       }
+       .onion{
+        color:rgb(57, 47, 255);
+        background-color: white;
+        height: 150px;
+        width: 150px;
+        font-style: inherit;
+        font-size: larger;
+       }
+       .carrot{
+        color:white;
+        background-color: orange;
+        height: 150px;
+        width: 150px;
+        font-size: larger;
+        font-style: initial;
+       }
+       #beetroot{
+        color:black;
+        background-color: yellow;
+        height: 150px;
+        width: 150px;
+        font-size: larger;
+        font-style: var();
+       }
+       #cucumber{
+        color: darkturquoise;
+        background-color: deeppink;
+        height: 150px;
+        width: 150px;
+        font-size: larger;
+        font-style: unset;
+       }
+       #chili{
+color: lime;
+background-color: orangered;
+height: 150px;
+width: 150px;
+font-size: larger;
+font-style: var();
+       }
+       #ginger{
+        color: turquoise;
+        background-color: black;
+        height: 150px;
+        width: 150px;
+        font-size: larger;
+        font-style: oblique;
+       }
+       TOMATO,POTATO,ONION,CARROT,BEETROOT,CUCUMBER,CHILI,GINGER,h1{
+        color: black; background-color: aqua ;
+       }
+       
+    </style>
+</head>
+<body>
+   <table border="2" >
+   
+    <td class="tomato">tomato</td>
+    <td class="potato">potato</td>
+    <td class="onion">onion</td>
+    <td class="carrot">carrot</td>
+   
+  <tr>
+    <td id="beetroot">beetroot</td>
+    <td id="cucumber">cucunber</td>
+    <td id="chili">chilli</td>
+    <td id="ginger">ginger</td>
+  </tr>
+   </table> 
+  <h1>TOMATO</h>
+  <h1 >POTATO</h>
+  <h1 >ONION</h>
+  <h1 >CARROT</h>
+  <h1 >BEETROOT</h>
+  <h1 >CUCUMBER</h>
+  <h1 >CHILI</h>
+  <h1 >GINGER</h>
+   
+</body>
+</html>
